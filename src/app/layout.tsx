@@ -5,6 +5,7 @@ import Providers from "./providers";
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import Script from 'next/script'
 
  
 
@@ -30,6 +31,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+
+<head>
+<Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2110194316179786"
+     crossOrigin="anonymous"
+          strategy="afterInteractive"
+     
+     
+     /> 
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
