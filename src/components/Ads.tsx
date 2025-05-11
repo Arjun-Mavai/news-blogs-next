@@ -20,14 +20,12 @@ export default function Ads() {
   return (
     <div className="my-8 w-full overflow-hidden rounded-lg bg-muted p-4 text-center">
       <div className="h-[250px] w-full">
-        <ins 
-          className="adsbygoogle"
-          style={{ display: "block" }}
-          data-ad-client="ca-pub-YOUR_ADSENSE_ID"
-          data-ad-slot="YOUR_AD_SLOT"
-          data-ad-format="auto"
-          data-full-width-responsive="true">
-        </ins>
+      <ins className="adsbygoogle"
+     style={{display:"block"}}
+     data-ad-client="ca-pub-2110194316179786"
+     data-ad-slot="9624958553"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
       </div>
       <p className="mt-2 text-xs text-muted-foreground">Advertisement</p>
     </div>
